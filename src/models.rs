@@ -1,4 +1,4 @@
-use super::schema::posts;
+use crate::schema::posts;
 use diesel::prelude::*;
 
 #[derive(Queryable, Selectable, Debug)]
